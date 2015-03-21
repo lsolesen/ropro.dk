@@ -1,0 +1,183 @@
+body {background-image: url(http://www.ropro.dk/images/bag.jpg); font-family: Verdana, Arial, sans-serif; }
+    h2 {margin-top: 50px;}
+    h3 { margin-bottom: 0; margin-top: 50px; text-decoration: underline; }
+    p.tid { margin-top: 0; }
+    p.sign { text-align: right; }
+    p.udenmargin {margin-top: 0px; margin-bottom: 0px;}
+   	hr.lille {width: 30px; text-align: left; margin-top: 0px; margin-bottom: 0px;}
+    img { border: none; }
+    
+		
+#head { background: #FFFFFF url(none); }
+#head h2 {text-align: center; font-size: 14pt; color: Black; margin-bottom: 0px; margin-top: 15px;}
+    
+#gnav ul { margin-top: 15px; margin-bottom: 5px; padding-left: 0;  margin-left: 0; background-color: #FFFFFF;
+color: Black; width: 100%; font-family: verdana, arial; font-size: 8pt; text-align: center; }
+#gnav ul li { display: inline; text-align: center;  }
+#gnav ul li a { padding: 0em 1em; background-color: #FFFFFF; color: Black;
+text-decoration: none; text-align: center; }
+#gnav ul li a:hover {background-color: #a3c2c2; color: #FFFFFF; text-align: center; padding-top: 0px; padding-bottom: 0px;}
+#gnav #current {color: #a3c3c2; font-weight: bolder; }
+#gnav #current:hover {color: #FFFFFF; }
+    
+		
+		#top 	{	
+					border-top: 8px Solid #a3c2c2; 
+				 	border-left: 8px Solid #a3c2c2; 
+					border-right: 8px Solid #a3c2c2; 
+					border-bottom: 1px Solid #a3c2c2;
+					border-style: outset;
+					background-color: #FFFFFF;  
+			width: 800px; 
+			height: 70px; 
+			margin: 3em auto 0em; }
+    
+
+		
+				   #content {
+					margin: 0em auto;
+					background: #ffffff url(http://www.ropro.dk/images/baggrund.jpg) no-repeat fixed 50% 50%; 
+			  	border-top: 0px Solid #a3c2c2; 
+				 	border-left: 8px Solid #a3c2c2; 
+					border-right: 8px Solid #a3c2c2; 
+					border-bottom: 8px Solid #a3c2c2;
+		  		border-style: outset; 
+					overflow: auto;
+					crollbar-base-color: #a3c2c2;
+					width: 800px; 
+					height: 603px; 
+					 }
+		#content p {font-size: 9pt; margin-left: 15px;}
+    #content  p.billedtekst {margin-top: -16px; margin-bottom: 30px; }
+		#content h3 {margin-left: 15px; font-size: 11pt;}
+    #content h2 {margin-left: 15px; margin-top: 15px; }
+    #content h4 {margin-left: 15px; margin-top: 15px; }
+		
+		#barton { width: 60%; height: 180px; margin-left: 15px; text-align: center;  padding: 5px; border: 1px solid #a3c2c2; border-collapse: collapse; }
+    #barton td { border-bottom: 1px solid #a3c2c2; border-right: none; font-size: 9pt; font-weight: normal;} 
+    
+		table.ydre { width: 60%; height: 100px; border: none; }
+    table.ydre td { border-left: none; border-bottom: none; border-top: none; border-right: 1px solid #a3c2c2; }
+    table.ydre-sidst td { font-family: Verdana, Arial; color: black; font-size: 9pt; border: none; }
+    table.indre { border: none;}
+    table.indre td { font-family: Verdana, Arial; color: black; font-size: 9pt; border: none;}
+    
+   table.lille { width: 55%; height: 80px; border: none;}
+   table.lille td {  font-weight: normal; border: none; font-size: 9pt; text-align: left;}
+   table.lille2 { width: 60%; height: 80px; border: none; border-collapse: collapse; }
+   table.lille2 td { font-weight: normal; font-size: 9pt; border-bottom: 1px Solid #a3c2c2; border-right: none; text-align: left; }
+    
+    #artikelliste li { list-style-type: none; font-size: 9pt;  padding: 10px; }
+		#arikelliste img { margin-bottom: 3.5px; margin-right: 5px; }
+				
+    #venstre { border-right: 1px Solid #a3c2c2; padding: 0.4em; 
+			padding-top: 2em;   float: left;  	width: 9em; 
+			height: 32em;  	margin-top: 2em; 		margin-left: 3px; 
+			margin-bottom: 0px; margin-right: 50px; 
+			}
+    #venstre p {text-align: center; font-size: 8pt; margin-top: 1em; margin-bottom: 1em; Color: Black;}
+    #venstre hr {padding: 0em; color: #a3c2c2; height: 1px;}
+    #venstre a {text-decoration: none; Color: Black; }
+    
+		#tekst p { margin-top: 3em; 
+		margin-bottom: 3em; 
+		font-size: 10pt; 
+		text-align: left;}
+    #tekst p.sign {Margin-top: 7px; margin-bottom: 0em; text-align: right;}
+    #tekst h2 {margin-top: 50px; font-size: 14pt; text-align: left; }
+    
+		
+		
+		
+    #nyheder {
+		  border-left: 1px Solid #a3c2c2; 
+			padding: 0.4em; 
+			padding-top: 1em;
+      float: right; 
+			width: 9em; 
+			height: 34em; 
+			margin-top: 1em; 
+			margin-left: 110px; 
+			margin-right: 3px; 
+			color: Black; }
+    #nyheder h3 {text-align: center; text-decoration: underline; margin-top: 4em; margin-bottom: 1em;}
+    #nyheder p {text-align: center; font-size: 8pt; margin-top: 1em; margin-bottom: 1em;}
+    #nyheder a {text-decoration: none; color: Black;}
+    #nyheder hr {padding: 0em; color: #a3c2c2; height: 1px; }
+		
+		
+dl{ margin-top: 4em; margin-left: 1em; font-size: 80%; font-family: verdana, times, serif; }
+dt {margin-bottom: -1.3em; }
+dd {border-left: 3px solid #a3c2c2; margin: 0 2em 0 6em; padding: 0 0 3em 1.8em; }
+		
+		   		
+    table { width: 90%; Margin-left: 25px; border-left: 1px Solid #a3c2c2; border-top: 1px Solid #a3c2c2; 
+    border-bottom: 1px Solid #a3c2c2; font-size: 9pt; color: #000000; font-weight: normal; }
+    caption {color: black; font-size: 14pt; padding: 1em;}
+    td { border-bottom: 1px Solid #a3c2c2; border-right: 1px Solid #a3c2c2; text-align: center; }
+    th { background-color: #a3c2c2; border-right: 1px Solid #a3c2c2; border-bottom: 1px Solid #a3c2c2; }
+    th.deling { border-right: 3px #a3c2c2; }
+    td.deling { border-right: 3px #a3c2c2; }
+    #sign {margin-right: 40px; text-align: right; }
+		
+	
+    #vejletop { margin-left: 15px;  margin-right: 3%; background: #a3c2c2; border: 1px Solid #a3c2c2; margin-top: 1em; }
+    #vejletop h1{text-align: center; font-size: 18pt; margin-top: 4px; margin-bottom: 4px; letter-spacing: 7px;}
+    #vejletop p {margin-top: 0px; margin-bottom: 2px; font-size: 9pt; text-align: center; letter-spacing: 3px;} 
+ 		
+		
+		#vejlevenstre {float: left; width: 40%; padding-left: 9px;}
+		#vejlevenstre img {margin-top: 10px;}
+		
+		#vejlehojre {float: right; width: 40%; margin-right: 74px; }
+		#vejlehojre img {}
+
+		#hold {				 
+									 border: 2px Solid #a3c2c2; 
+									 width: 100%; 
+									 margin-left: 5px; 
+									 margin-top: 1em; 
+									 margin-bottom: 2em;
+									 padding-right: 1em;
+									 padding-left: 1em;}
+		 
+    #hold h2 {text-align: center;}
+		#hold h4 {background-color: #a3c2c2; letter-spacing: 3px; padding: .5em; margin-left: 15px; }
+    #hold p {}
+    #hold li {font-size: 10pt; list-style-type: circle; margin-top: .5em;}
+ 
+ 
+    #sondag {			 border: 2px Solid #a3c2c2; 
+									 width: 100%; 
+									 margin-left: 15px; 
+									 margin-top: 1em; 
+									 margin-bottom: 2em;
+									 padding-right: 1em;
+									 padding-left: 1em;}
+		 
+		#sondag h2 {margin-top: 0px; margin-bottom: 0px;}
+    #sondag h3 {margin-top: 5px; margin-bottom: 0px;}
+		#sondag h4 {background-color: #a3c2c2; letter-spacing: 3px; padding: .5em;}
+    #sondag hr {margin-left: 15px;}
+    #sondag p {font-size: 10pt;}
+    #sondag table td {font-size: 10pt; }
+		
+
+		
+		#tand {width: 100%; background-color: #a3c2c2;
+		border-top: 2px Solid #a3c2c2; border-left: 2px Solid #a3c2c2; 
+		border-right: 2px Solid #a3c2c2;}
+		
+		#tand p {font-size: 15pt; text-align: center; }
+		#tand a	{	color: #000000; text-decoration: none;}
+		
+		#ugepro {width: 40%; margin-left: 15px; border: 2px Solid #a3c2c2; margin-top: 1em; margin-bottom: 2em; padding-right: 1em; padding-left: 1em; }
+    #ugepro p {margin-left: 15px; font-size: 10pt;}
+    #ugepro h1 {margin-left: 15px; margin-top: 0px; margin-bottom: 0px; font-size: 18pt;}
+		
+		#ugeprotop {Margin-top: 15px; margin-left: 15px;}
+		#ugeprotop h4 {text-align: center; background-color: #a3c2c2; letter-spacing: 3px; padding-top: 80px; padding-bottom: 80px; margin: 0px; }
+		#ugeprotop img { float: right; height: 194px; border: 1px Solid #a3c2c2;}
+		
+		#webliste { Margin-top: 6em; margin-left: 8em; }
+		#webliste li { Margin-top: .6em; }
